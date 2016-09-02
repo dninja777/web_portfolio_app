@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+.navbar.navbar-inverse{
+    margin-bottom: 0;
+    
+}
+
+.li{
+    color: white;
+}
+
+.img{
+  max-width: 100%;
+    height: auto;
+  
+    
+}
+.row{
+    margin-bottom: 0px;
+}
+.center{
+    
+    width: 50%;
+    
+    margin-right: 220px;
+    margin-bottom: 0px;
+}
+.img-responsive{
+    height: 1000px;
+}
+.content h2{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+.page-header{
+    margin-left: 20px;
+}
+.right-col{
+    
+    width: 460px;
+    margin-left: 300px;
+    padding:0;
+    color: black;
+}
+
+
+
+p{
+    font-size: 20px;
+}
+
