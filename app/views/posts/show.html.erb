@@ -1,0 +1,36 @@
+<p id="notice"><%= notice %></p>
+
+
+
+
+
+			
+			<div id="post_show">
+			  <div class="row">
+			    <div class="col-md-8 col-md-offset-2">
+			      <div class="panel panel-default">
+			        <div class="panel-heading post_image">
+			          <%= image_tag @post.image.url %>
+			          <div class="panel-body">
+			            <h1><%= @post.title %></h1>
+			            <p class="description"><%= @post.content %></p>
+			            <div class="panel-footer">
+			              <% if admin_signed_in? %>
+			              <div class="row">
+			                <div class="col-md-6">
+			                  <p>
+			                  
+                        <%= link_to 'Edit', edit_post_path(@post), class: "btn btn-default" %> 
+                        <%= link_to 'Back', posts_path, class: "btn btn-default" %> 
+                        <%= link_to "Delete", post_path, method: :delete, class: "btn btn-default" %>
+                        <% end %>
+			                  </p>
+			                </div>
+			              </div>
+			            </div>
+			          </div>
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+			</div>
