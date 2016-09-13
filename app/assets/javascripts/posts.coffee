@@ -8,3 +8,5 @@ $ ->
         $('#post').masonry
           itemSelector: '.box'
           isFitWidth: true
+          
+          
