@@ -2,12 +2,12 @@ Rails.application.routes.draw do
   devise_for :admins
   resources :posts
   root 'portfolio#index'
-  get 'portfolio/about'
+  get 'portfolio/about', to: 'portfolio#about'
   get 'portfolio/art', to: 'portfolio#art'
   get 'portfolio/webapp', to: 'portfolio#webapp'
   get 'portfolio/portfolio'
 
-  get 'portfolio/contact'
+  get 'portfolio/contact', to: 'portfolio#contact'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
