@@ -21,7 +21,7 @@
 .jumbotron{
     background-image: url('/assets/web_dev.png');
     background-size: cover;
-    height: 550px;
+    max-height: 55%;
     
 }
 
@@ -52,8 +52,8 @@
 }
 .right-col{
     
-    width: 460px;
-    margin-left: 300px;
+    max-width: 100%;
+    
     padding:0;
     color: black;
 }

@@ -27,11 +27,12 @@
           <li><%= link_to 'Game Art', portfolio_art_path %></li>
             </ul>
             <li><%= link_to "Sign Out", destroy_admin_session_path, method: :delete, id:"nav" %></li>
+            </ul>
         </li>
         
       </ul>
       
-      </ul>
+     
       
       
       <% else %>
@@ -48,8 +49,8 @@
         </li>
         <li><%= link_to 'Contact Me', contact_us_path, id:"nav" %></li>
       </ul>
-      </ul>
-       
+      
+      
         
         
         <% end %>
