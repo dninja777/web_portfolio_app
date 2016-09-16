@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :admins
   resources :posts
+  
   root 'portfolio#index'
   get 'portfolio/about', to: 'portfolio#about'
   get 'portfolio/art', to: 'portfolio#art'
