@@ -27,6 +27,7 @@ gem 'simple_form', '~> 3.3', '>= 3.3.1'
 gem 'devise', '~> 4.2'
 gem 'masonry-rails', '~> 0.2.4'
 gem 'contact_us', '~> 1.0.1'
+gem 'sendgrid-ruby'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
