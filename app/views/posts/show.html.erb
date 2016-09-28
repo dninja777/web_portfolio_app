@@ -7,7 +7,7 @@
 			          <%= image_tag @post.image.url %>
 			          <div class="panel-body">
 			            <h1><%= @post.title %></h1>
-			            <p class="description"><%= @post.content %></p>
+			            <p class="content"><%= @post.content %></p>
 			            <div class="panel-footer">
 			              <% if admin_signed_in? %>
 			              <div class="row">
