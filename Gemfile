@@ -28,7 +28,7 @@ gem 'devise', '~> 4.2'
 gem 'masonry-rails'
 gem 'contact_us', '~> 1.0.1'
 gem 'sendgrid-ruby'
-gem 'Bootstrap-Image-Gallery-rails'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

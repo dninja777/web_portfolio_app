@@ -1,6 +1,4 @@
-body{
-    background-color: black;
-}
+
 
 #logo{
     float: left;
@@ -10,29 +8,22 @@ body{
     letter-spacing: -1px;
     font-weight: bold;
 }
+.mySlides {display:none}
 #nav{
     color: #fff;
     font-size: 1em;
     text-transform: uppercase;
     
 }
+
+.carousel{width: 100%;
+       height: 50%;}
+
 .center{
     text-align: center;
 }
 
-.jumbotron{
-    background-image: url('/assets/web_dev.png');
-    background-size: cover;
-    max-height: 55%;
-    
-}
 
-.jumbotron h2{
-    color: black;
-    text-align: center;
-    margin-top: 100px;
-    
-}
 .li{
     color: white;
 }
@@ -52,12 +43,22 @@ body{
 .page-header{
     margin-left: 20px;
 }
-.right-col{
-    
-    max-width: 100%;
-    
+.left-col{
+    position: relative;
+    width: 500px;
+    height: 450px;
+    font-size: 25px;
     padding:0;
     color: black;
+}
+
+.right-col{
+    position: relative;
+    float:right;
+    background-color:black;
+    height: 450px;
+    width: 500px;
+    bottom: 500px;
 }
 
 
