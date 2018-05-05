@@ -105,7 +105,7 @@ GEM
       mime-types
       mimemagic (~> 0.3.0)
       terrapin (~> 0.6.0)
-    pg (1.0.0)
+    pg (0.21.0)
     rack (1.6.10)
     rack-protection (1.5.5)
       rack
@@ -216,7 +216,7 @@ DEPENDENCIES
   jquery-rails
   masonry-rails
   paperclip (~> 5.1)
-  pg
+  pg (~> 0.11)
   rails (= 4.2.5)
   rails_12factor
   sass-rails (~> 5.0)
